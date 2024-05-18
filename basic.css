@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "ml";
+    src: url("../fonts/Mi Lan.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "msu";
+    src: url("../fonts/Microsoft YaHei UI.ttc") format('truetype');
+}
+
+body {
+    background-color: #000000;
+    font-family: "ml", "msu";
+    font-weight: 200;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+div {
+    /**/
+}
+
+a {
+    font-size: 30px;
+}
+
+    a:link {
+        color: cyan;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: mediumpurple;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: silver;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: palegreen;
+        text-decoration: underline;
+    }
+
+span {
+    background: linear-gradient(to right, cyan, #00d839);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
+.ap {
+    display: flex;
+    align-items: center;
+}
+
+    .ap audio {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .ap button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .ap button:hover {
+            background-color: #0056b3;
+        }
