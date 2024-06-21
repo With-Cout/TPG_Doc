@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "ml";
-    src: url("../fonts/Mi Lan.ttf") format("truetype");
+    font-family: "bm";
+    src: url("../fonts/Basic Modification.ttf") format("truetype");
 }
 
 @font-face {
@@ -10,7 +10,7 @@
 
 body {
     background-color: #000000;
-    font-family: "ml", "msu";
+    font-family: "bm", "msu";
     font-weight: 200;
 }
 
